@@ -1,0 +1,20 @@
+package ArrayBasicProgram;
+
+public class Average {
+    public static void sum(int [] a){
+        int sum=0;
+        for (int i = 0; i <a.length ; i++) {
+            sum+=a[i];
+        }
+        int size=a.length;
+        int avg=sum/size;
+        System.out.println("sum is : "+sum);
+        System.out.println("Average is : "+avg);
+    }
+    public static void main(String[] args) {
+        int []a={1,2,3,4,5};
+        sum(a);
+
+    }
+
+}
